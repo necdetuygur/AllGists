@@ -46,8 +46,10 @@
         <pre
             v-if="view != 'loading'"
             style="
+                overflow: hidden;
+                overflow-y: auto;
                 width: calc(100% - 15px);
-                height: 100%;
+                height: calc(100% - 30px);
                 min-height: 400px;
                 white-space: pre-wrap;
                 word-wrap: break-word; 
